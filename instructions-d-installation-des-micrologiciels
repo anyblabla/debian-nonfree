@@ -1,0 +1,16 @@
+Installez tous les micrologiciels non libres de Debian 11
+
+Avant de continuer, assurez-vous que | MAIN NON-FREE CONTRIB | sont ajoutés aux dépôts de votre système.
+Ceux-ci sont généralement disponibles dans les paramètres de votre gestionnaire de paquets.
+Ou vous pouvez modifier vos sources directement avec <sudo nano /etc/apt/sources.list>
+Ajoutez MAIN NON-FREE CONTRIB à la fin de chaque ligne.
+
+Exemple : deb http://deb.debian.org/debian/ bullseye main non-free contrib
+
+Copier le fichier <firmware.list> dans votre répertoire personnel.
+Exécutez les commandes suivantes pour activer et installer.
+
+sudo dpkg --add-architecture i386 
+sudo apt-get update
+sudo apt-get install dselect
+sudo apt-get install $(cat ~/Firmware.list | awk '{print $1}')

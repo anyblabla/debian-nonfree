@@ -8,6 +8,8 @@ Ajoutez MAIN NON-FREE CONTRIB à la fin de chaque ligne.
 Exemple : deb http://deb.debian.org/debian/ bullseye main non-free contrib
 
 Copier le fichier <firmware.list> dans votre répertoire personnel.
+Ouvrez une instance "Terminal" à cet endroit.
+
 Exécutez les commandes suivantes pour activer et installer.
 
 sudo dpkg --add-architecture i386 

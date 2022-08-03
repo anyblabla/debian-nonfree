@@ -20,7 +20,7 @@ Exécutez les commandes suivantes pour activer et installer...
 * sudo dpkg --add-architecture i386 
 * sudo apt-get update
 * sudo apt-get install dselect
-* sudo apt-get install $(cat ~/Firmware.list | awk '{print $1}')
+* sudo apt-get install $(cat firmware.list | awk '{print $1}')
 
 ----------------------------------------------------------------------
 
@@ -40,4 +40,4 @@ Run the following commands to enable and install...
 * sudo dpkg --add-architecture i386 
 * sudo apt-get update
 * sudo apt-get install dselect
-* sudo apt-get install $(cat ~/Firmware.list | awk '{print $1}')
+* sudo apt-get install $(cat firmware.list | awk '{print $1}')

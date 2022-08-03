@@ -14,6 +14,7 @@ Ajoutez MAIN NON-FREE CONTRIB à la fin de chaque ligne.
 Exemple : deb http://deb.debian.org/debian/ bullseye main non-free contrib
 
 Copier le fichier <firmware.list> dans votre répertoire personnel.
+
 Ouvrez une instance "Terminal" à cet endroit.
 
 Exécutez les commandes suivantes pour activer et installer...
@@ -35,6 +36,7 @@ Add MAIN NON-FREE CONTRIB at the end of each line.
 Example: deb http://deb.debian.org/debian/bullseye main non-free contrib
 
 Copy the <firmware.list> file to your home directory.
+
 Open a "Terminal" instance there.
 
 Run the following commands to enable and install...

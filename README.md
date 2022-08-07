@@ -45,3 +45,6 @@ Run the following commands to enable and install...
 * sudo apt-get update
 * sudo apt-get install dselect
 * sudo apt-get install $(cat firmware.list | awk '{print $1}')
+
+# Démonstration/Démonstration
+https://youtu.be/CQ9kPMaeFts

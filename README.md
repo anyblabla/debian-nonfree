@@ -47,4 +47,4 @@ Run the following commands to enable and install...
 * sudo apt-get install $(cat firmware.list | awk '{print $1}')
 
 # Demonstration/Démonstration
-https://youtu.be/CQ9kPMaeFts
+- https://youtu.be/CQ9kPMaeFts
